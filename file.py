@@ -11,7 +11,7 @@ def palendrime(something):
     else:
         print("nothing")
         
-palendrime("Mama")
+palendrime("aibohphobia")
 
 
 def counter():
@@ -19,13 +19,14 @@ def counter():
     counter = dict()
     for x in sentence:
         if x not in counter:
-            counter[x] + 1
+            counter[x] = 1
         else:
             counter[x] +=1
+
+    print(counter)
 counter()
 
 def substract(num1,num2):
     return num1-num2
 substract(10,6)
 
-print("Hey")
